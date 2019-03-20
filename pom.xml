@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
   
   <modelVersion>4.0.0</modelVersion>
   
@@ -154,12 +154,12 @@
         <version>1.12</version>
         <configuration>
           <excludedLinks>
-            <value>http://github.com/</value>
-            <value>http://git.or.cz/</value>
+            <value>https://github.com/</value>
+            <value>https://git-scm.com/</value>
             <value>http://localhost:8080/</value>
-            <value>http://repo.fusesource.com/</value>
-            <value>http://search.twitter.com/</value>
-            <value>http://www.chengin.com/</value>
+            <value>https://repo.fusesource.com/</value>
+            <value>https://search.twitter.com/</value>
+            <value>https://www.chengin.com/</value>
           </excludedLinks>
         </configuration>
       </plugin>
