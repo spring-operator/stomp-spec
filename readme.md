@@ -16,12 +16,12 @@ lasted released specification is located at:
 ## Website Generation
 
 This git repository generates the STOMP specification static website
-using either [Maven](http://maven.apache.org/download.html) or the
-[SBT](http://code.google.com/p/simple-build-tool/wiki/Setup) build tool.
+using either [Maven](https://maven.apache.org/download.html) or the
+[SBT](https://code.google.com/p/simple-build-tool/wiki/Setup) build tool.
 
 ### Building with Maven
 
-Once you have [Maven](http://maven.apache.org/download.html) installed,
+Once you have [Maven](https://maven.apache.org/download.html) installed,
 you can generate the website by running:
 
     mvn package
@@ -32,7 +32,7 @@ point your web browser at `target/sitegen/index.html`
 ### Building with SBT
 
 Once you have
-[SBT](http://code.google.com/p/simple-build-tool/wiki/Setup) installed,
+[SBT](https://code.google.com/p/simple-build-tool/wiki/Setup) installed,
 you can generate the website by running:
 
     sbt update

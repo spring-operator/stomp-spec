@@ -22,12 +22,12 @@ package
  * <p>
  * </p>
  *
- * @author <a href="http://hiramchirino.com">Hiram Chirino</a>
+ * @author <a href="https://hiramchirino.com">Hiram Chirino</a>
  */
 object Website {
   val project_name= "STOMP Specification"
   val project_description= "The Simple Text Oriented Messaging Protocol"
   val project_logo= "/images/project-logo.png"
   val project_keywords= "stomp,messaging,mom,middleware,specification"
-  val website_base_url= "http://stomp.github.com"
+  val website_base_url= "https://stomp.github.com"
 }

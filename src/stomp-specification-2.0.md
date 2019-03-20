@@ -732,7 +732,7 @@ direction, if heart-beats are expected every `<n>` milliseconds:
 
 A STOMP session can be more formally described using the
 Backus-Naur Form (BNF) grammar used in HTTP/1.1
-[rfc2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec2.html#sec2.1).
+[rfc2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec2.html#sec2.1).
 
     LF                  = <US-ASCII new line (line feed) (octet 10)>
     OCTET               = <any 8-bit sequence of data>
@@ -773,5 +773,5 @@ Backus-Naur Form (BNF) grammar used in HTTP/1.1
 ## License
 
 This specification is licensed under the
-[Creative Commons Attribution v2.5](http://creativecommons.org/licenses/by/2.5/)
+[Creative Commons Attribution v2.5](https://creativecommons.org/licenses/by/2.5/)
 license.

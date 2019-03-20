@@ -104,7 +104,7 @@ documentation for the implementation specific details of these features.
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
-interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
+interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 Implementations may impose implementation-specific limits on unconstrained
 inputs, e.g. to prevent denial of service attacks, to guard against running
@@ -852,7 +852,7 @@ details.
 
 A STOMP session can be more formally described using the
 Backus-Naur Form (BNF) grammar used in HTTP/1.1
-[RFC 2616](http://tools.ietf.org/html/rfc2616#section-2.1).
+[RFC 2616](https://tools.ietf.org/html/rfc2616#section-2.1).
 
     NULL                = <US-ASCII null (octet 0)>
     LF                  = <US-ASCII line feed (aka newline) (octet 10)>
@@ -895,5 +895,5 @@ Backus-Naur Form (BNF) grammar used in HTTP/1.1
 ## License
 
 This specification is licensed under the
-[Creative Commons Attribution v3.0](http://creativecommons.org/licenses/by/3.0/)
+[Creative Commons Attribution v3.0](https://creativecommons.org/licenses/by/3.0/)
 license.

@@ -59,7 +59,7 @@ it does not, in fact, specify any such thing. Destination names are simply
 strings which are mapped to some form of destination on the server - how the
 server translates these is left to the server implementation. See [this note
 on mapping destination strings to JMS
-Destinations](http://activemq.apache.org/stomp.html) for more detail.
+Destinations](https://activemq.apache.org/stomp.html) for more detail.
 
 SEND supports a *transaction* header which allows for transaction sends.
 
@@ -92,7 +92,7 @@ the header is not included) and *client*.
 The body of the SUBSCRIBE command is ignored.
 
 Stomp brokers may support the *selector* header which allows you to specify
-an [SQL 92 selector](http://activemq.apache.org/selectors.html) on the
+an [SQL 92 selector](https://activemq.apache.org/selectors.html) on the
 message headers which acts as a filter for content based routing.
 
 You can also specify an *id* header which can then later on be used to
@@ -101,8 +101,8 @@ subscriptions using selectors with the same destination. If an *id* header is
 supplied then Stomp brokers should append a *subscription* header to any
 MESSAGE commands which are sent to the client so that the client knows which
 subscription the message relates to. If using
-[Wildcards](http://activemq.apache.org/wildcards.html) and
-[selectors](http://activemq.apache.org/selectors.html) this can help clients
+[Wildcards](https://activemq.apache.org/wildcards.html) and
+[selectors](https://activemq.apache.org/selectors.html) this can help clients
 figure out what subscription caused the message to be created.
 
 <h3 id="frame-UNSUBSCRIBE">UNSUBSCRIBE</h3>
@@ -324,4 +324,4 @@ We will use the augmented Backus-Naur Form (BNF) used in the HTTP/1.1
     binary-content      = 1*OCTECT
 
 This spec is licensed under the [Creative Commons Attribution
-v2.5](http://creativecommons.org/licenses/by/2.5/)
+v2.5](https://creativecommons.org/licenses/by/2.5/)
